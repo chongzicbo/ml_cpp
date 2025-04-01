@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/kmeans.dir/src/main.cpp.o CMakeFiles/kmeans.dir/src/kmeans.cpp.o CMakeFiles/kmeans.dir/src/gradient_descent.cpp.o -o kmeans 

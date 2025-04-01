@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/data/bocheng/dev/mylearn/cplus/ml_cpp/build",
+  "command": "/usr/bin/g++ -I/data/bocheng/dev/mylearn/cplus/ml_cpp/include -g -o CMakeFiles/ml.dir/src/main.cpp.o -c /data/bocheng/dev/mylearn/cplus/ml_cpp/src/main.cpp",
+  "file": "/data/bocheng/dev/mylearn/cplus/ml_cpp/src/main.cpp"
+},
+{
+  "directory": "/data/bocheng/dev/mylearn/cplus/ml_cpp/build",
+  "command": "/usr/bin/g++ -I/data/bocheng/dev/mylearn/cplus/ml_cpp/include -g -o CMakeFiles/ml.dir/src/kmeans.cpp.o -c /data/bocheng/dev/mylearn/cplus/ml_cpp/src/kmeans.cpp",
+  "file": "/data/bocheng/dev/mylearn/cplus/ml_cpp/src/kmeans.cpp"
+},
+{
+  "directory": "/data/bocheng/dev/mylearn/cplus/ml_cpp/build",
+  "command": "/usr/bin/g++ -I/data/bocheng/dev/mylearn/cplus/ml_cpp/include -g -o CMakeFiles/ml.dir/src/gradient_descent.cpp.o -c /data/bocheng/dev/mylearn/cplus/ml_cpp/src/gradient_descent.cpp",
+  "file": "/data/bocheng/dev/mylearn/cplus/ml_cpp/src/gradient_descent.cpp"
+},
+{
+  "directory": "/data/bocheng/dev/mylearn/cplus/ml_cpp/build",
+  "command": "/usr/bin/g++ -I/data/bocheng/dev/mylearn/cplus/ml_cpp/include -g -o CMakeFiles/ml.dir/src/autodiff.cpp.o -c /data/bocheng/dev/mylearn/cplus/ml_cpp/src/autodiff.cpp",
+  "file": "/data/bocheng/dev/mylearn/cplus/ml_cpp/src/autodiff.cpp"
+},
+{
+  "directory": "/data/bocheng/dev/mylearn/cplus/ml_cpp/build",
+  "command": "/usr/bin/g++ -I/data/bocheng/dev/mylearn/cplus/ml_cpp/include -g -o CMakeFiles/ml.dir/src/attention.cpp.o -c /data/bocheng/dev/mylearn/cplus/ml_cpp/src/attention.cpp",
+  "file": "/data/bocheng/dev/mylearn/cplus/ml_cpp/src/attention.cpp"
+}
+]

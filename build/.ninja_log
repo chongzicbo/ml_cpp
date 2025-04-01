@@ -1,0 +1,11 @@
+# ninja log v6
+1	423	1740464946215867100	CMakeFiles/kmeans.dir/src/gradient_descent.cpp.o	6a8557cfce56dbe5
+456	514	1742804765931844400	ml	ea78b70ef4a86465
+2	473	1742804726863947500	CMakeFiles/ml.dir/src/attention.cpp.o	d89981e0eb3f46e0
+1	465	1740464946215479400	CMakeFiles/kmeans.dir/src/main.cpp.o	be46c29fbbbf0de0
+2	401	1742796866770425000	CMakeFiles/ml.dir/src/gradient_descent.cpp.o	a8b2969c7b922c75
+1	466	1740464946215743000	CMakeFiles/kmeans.dir/src/kmeans.cpp.o	74720b1b21ce2fbb
+466	591	1740464946680913000	kmeans	ab34960e7cb76e27
+2	258	1742796866770805800	CMakeFiles/ml.dir/src/autodiff.cpp.o	176c9c6980b330ba
+2	456	1742804765477703300	CMakeFiles/ml.dir/src/main.cpp.o	5c4a1d5a30f29563
+1	459	1742796866770223100	CMakeFiles/ml.dir/src/kmeans.cpp.o	c93a21098d614ebf
