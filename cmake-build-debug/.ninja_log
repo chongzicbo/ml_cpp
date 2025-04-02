@@ -1,10 +1,17 @@
 # ninja log v5
 224	1681	7651991885458749	CMakeFiles/ml.dir/src/autodiff.cpp.obj	2bdd64db44ce4a69
+1	539	7652624062687963	build.ninja	ac119e1c81954d3e
 66	1906	7651991887702237	CMakeFiles/ml.dir/src/gradient_descent.cpp.obj	f7028dedacddb935
+168	3152	7652623102850082	CMakeFiles/attention.dir/src/main.cpp.obj	94eda9b430d36318
 142	1995	7651991888619807	CMakeFiles/ml.dir/src/kmeans.cpp.obj	74944233d5113961
-0	2076	7651991889434400	CMakeFiles/ml.dir/src/main.cpp.obj	59a227038ba7ac2
-326	2476	7651991893455159	CMakeFiles/ml.dir/src/attention.cpp.obj	1bb0f44f625b29d6
-2477	2803	7651991896664023	ml.exe	113d158ff5177e4e
-3	1214	7652021222127814	CMakeFiles/ml.dir/src/main.cpp.obj	59a227038ba7ac2
 57	1324	7652021223217837	CMakeFiles/ml.dir/src/self_attention.cpp.obj	1e9ef83e6734d2d2
+326	2476	7651991893455159	CMakeFiles/ml.dir/src/attention.cpp.obj	1bb0f44f625b29d6
+3	1214	7652021222127814	CMakeFiles/ml.dir/src/main.cpp.obj	59a227038ba7ac2
 1325	1684	7652021226762375	ml.exe	5ab9aa5f7122e7a2
+52	1134	7652623082641550	CMakeFiles/attention.dir/src/autodiff.cpp.obj	af195e464a411706
+112	1999	7652623091275142	CMakeFiles/attention.dir/src/self_attention.cpp.obj	55109b3cd5930d2b
+235	2258	7652623093877704	CMakeFiles/attention.dir/src/attention.cpp.obj	63e39ad88a300e33
+0	4692	7652623118190724	CMakeFiles/attention.dir/src/eigen_self_attention.cpp.obj	d1cea48398972310
+32	674	7652624111332166	CMakeFiles/attention.dir/src/gradient_descent.cpp.obj	48072049d5a4d538
+3	695	7652624111531576	CMakeFiles/attention.dir/src/kmeans.cpp.obj	22dabf8fdaddc9a7
+695	963	7652624114148671	attention.exe	983e03b5dafee4b9

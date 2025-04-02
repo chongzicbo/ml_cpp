@@ -6,6 +6,7 @@
 #include <iostream>
 #include "attention.h"
 #include "self_attention.hpp"
+#include "eigen_self_attention.hpp"
 
 std::vector<Point> load_data(const std::string &filename) {
     std::vector<Point> data;
@@ -130,10 +131,34 @@ void test_self_attention() {
     }
 }
 
+void test_eigen_self_attention() {
+    try {
+        // 定义输入数据
+        Eigen::MatrixXd input(2, 8); // Batch size = 2, Embedding dim = 8
+        input << 1.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8,
+                0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6;
+
+        // 创建 SelfAttention 实例
+        EigenSelfAttention::SelfAttention sa(8, 4); // Embedding dim = 8, Num heads = 4
+
+        // 前向传播
+        Eigen::MatrixXd output = sa.forward(input);
+
+        // 输出结果
+        std::cout << "Output:\n"
+                  << output << std::endl;
+    }
+    catch (const std::exception &e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }
+}
+
 int main() {
     // test_kmeans();
 //    test_attention();
-    test_self_attention();
+//    test_self_attention();
+    test_eigen_self_attention();
     return 0;
+
 
 }

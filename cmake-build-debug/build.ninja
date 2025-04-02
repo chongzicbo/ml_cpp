@@ -41,73 +41,80 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/dev/cpp/ml_cpp/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ml
+# Object build statements for EXECUTABLE target attention
 
 
 #############################################
-# Order-only phony target for ml
+# Order-only phony target for attention
 
-build cmake_object_order_depends_target_ml: phony || CMakeFiles/ml.dir
+build cmake_object_order_depends_target_attention: phony || CMakeFiles/attention.dir
 
-build CMakeFiles/ml.dir/src/main.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/main.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\main.cpp.obj.d
+build CMakeFiles/attention.dir/src/main.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/main.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
-build CMakeFiles/ml.dir/src/kmeans.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/kmeans.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\kmeans.cpp.obj.d
+build CMakeFiles/attention.dir/src/kmeans.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/kmeans.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\kmeans.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
-build CMakeFiles/ml.dir/src/gradient_descent.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/gradient_descent.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\gradient_descent.cpp.obj.d
+build CMakeFiles/attention.dir/src/gradient_descent.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/gradient_descent.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\gradient_descent.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
-build CMakeFiles/ml.dir/src/autodiff.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/autodiff.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\autodiff.cpp.obj.d
+build CMakeFiles/attention.dir/src/attention.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/attention.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\attention.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
-build CMakeFiles/ml.dir/src/attention.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/attention.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\attention.cpp.obj.d
+build CMakeFiles/attention.dir/src/self_attention.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/self_attention.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\self_attention.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
-build CMakeFiles/ml.dir/src/self_attention.cpp.obj: CXX_COMPILER__ml_Debug E$:/dev/cpp/ml_cpp/src/self_attention.cpp || cmake_object_order_depends_target_ml
-  DEP_FILE = CMakeFiles\ml.dir\src\self_attention.cpp.obj.d
+build CMakeFiles/attention.dir/src/autodiff.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/autodiff.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\autodiff.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  INCLUDES = -IE:/dev/cpp/ml_cpp/include
-  OBJECT_DIR = CMakeFiles\ml.dir
-  OBJECT_FILE_DIR = CMakeFiles\ml.dir\src
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
+
+build CMakeFiles/attention.dir/src/eigen_self_attention.cpp.obj: CXX_COMPILER__attention_Debug E$:/dev/cpp/ml_cpp/src/eigen_self_attention.cpp || cmake_object_order_depends_target_attention
+  DEP_FILE = CMakeFiles\attention.dir\src\eigen_self_attention.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  INCLUDES = -IE:/dev/cpp/ml_cpp/include -IE:/dev/cpp/ml_cpp/third_party/eigen
+  OBJECT_DIR = CMakeFiles\attention.dir
+  OBJECT_FILE_DIR = CMakeFiles\attention.dir\src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ml
+# Link build statements for EXECUTABLE target attention
 
 
 #############################################
-# Link the executable ml.exe
+# Link the executable attention.exe
 
-build ml.exe: CXX_EXECUTABLE_LINKER__ml_Debug CMakeFiles/ml.dir/src/main.cpp.obj CMakeFiles/ml.dir/src/kmeans.cpp.obj CMakeFiles/ml.dir/src/gradient_descent.cpp.obj CMakeFiles/ml.dir/src/autodiff.cpp.obj CMakeFiles/ml.dir/src/attention.cpp.obj CMakeFiles/ml.dir/src/self_attention.cpp.obj
+build attention.exe: CXX_EXECUTABLE_LINKER__attention_Debug CMakeFiles/attention.dir/src/main.cpp.obj CMakeFiles/attention.dir/src/kmeans.cpp.obj CMakeFiles/attention.dir/src/gradient_descent.cpp.obj CMakeFiles/attention.dir/src/attention.cpp.obj CMakeFiles/attention.dir/src/self_attention.cpp.obj CMakeFiles/attention.dir/src/autodiff.cpp.obj CMakeFiles/attention.dir/src/eigen_self_attention.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ml.dir
+  OBJECT_DIR = CMakeFiles\attention.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ml.exe
-  TARGET_IMPLIB = libml.dll.a
-  TARGET_PDB = ml.exe.dbg
+  TARGET_FILE = attention.exe
+  TARGET_IMPLIB = libattention.dll.a
+  TARGET_PDB = attention.exe.dbg
 
 
 #############################################
@@ -135,7 +142,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ml: phony ml.exe
+build attention: phony attention.exe
 
 # =============================================================================
 # Folder targets.
@@ -145,7 +152,7 @@ build ml: phony ml.exe
 #############################################
 # Folder: E:/dev/cpp/ml_cpp/cmake-build-debug
 
-build all: phony ml.exe
+build all: phony attention.exe
 
 # =============================================================================
 # Built-in targets
