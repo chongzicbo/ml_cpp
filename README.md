@@ -6,3 +6,4 @@
 - gradient descent
 - ScaledDotProductAttention
 - Self Attention
+- Eigen Self Attention
