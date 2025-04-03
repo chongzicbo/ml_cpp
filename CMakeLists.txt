@@ -16,7 +16,8 @@ add_executable(attention
         src/attention.cpp
         src/self_attention.cpp
         src/autodiff.cpp
-         src/eigen_self_attention.cpp)
+        src/eigen_self_attention.cpp
+        )
 
 # Add include directories
 target_include_directories(attention PRIVATE

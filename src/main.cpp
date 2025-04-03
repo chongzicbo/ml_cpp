@@ -7,6 +7,7 @@
 #include "attention.h"
 #include "self_attention.hpp"
 #include "eigen_self_attention.hpp"
+#include "transformer/linear.hpp"
 
 std::vector<Point> load_data(const std::string &filename) {
     std::vector<Point> data;
@@ -153,11 +154,33 @@ void test_eigen_self_attention() {
     }
 }
 
+void test_transformer() {
+    const int DIM_IN = 3;
+    const int DIM_OUT = 2;
+
+    transformer::LinearParameter<float, DIM_IN, DIM_OUT> param = {{
+                                                                          {{1.0, 2.0}, {3.0, 4.0}, {5.0, 6.0}}  // weights
+                                                                  },
+                                                                  {       0.5, 1.5}};  // bias
+
+    std::array<float, DIM_IN> input = {1.0, 2.0, 3.0};
+    std::array<float, DIM_OUT> output = {0.0, 0.0};
+
+    transformer::Linear<float, DIM_IN, DIM_OUT>::forward(input, output, param);
+
+    std::cout << "Output of Linear: ";
+    for (const auto &val: output) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+}
+
 int main() {
     // test_kmeans();
 //    test_attention();
 //    test_self_attention();
-    test_eigen_self_attention();
+//    test_eigen_self_attention();
+    test_transformer();
     return 0;
 
 
